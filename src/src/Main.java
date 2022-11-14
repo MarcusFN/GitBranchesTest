@@ -9,6 +9,10 @@ public class Main {
         System.out.print("the Cat siger: ");cat.makeSound();
         System.out.println("Cats eat: "+cat.eat("smelly fish"));
         System.out.println("Dogs eat: "+dog.eat("bad bitches"));
+
+        cat.showMood(true);
+        dog.showMood(false);
+
     }
 
 }
