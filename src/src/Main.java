@@ -7,8 +7,8 @@ public class Main {
         Dog dog = new Dog();
         System.out.print("the dog siger: ");dog.makeSound();
         System.out.print("the Cat siger: ");cat.makeSound();
-        System.out.println(cat.eat("smelly fish"));
-        System.out.println(dog.eat("bang bitches"));
+        System.out.println("Cats eat: "+cat.eat("smelly fish"));
+        System.out.println("Dogs eat: "+dog.eat("bad bitches"));
     }
 
 }
